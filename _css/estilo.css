@@ -4,6 +4,7 @@
     src: url("../_fonts/bubblegum-sans-regular.otf");
 }
 body {
+    font-family: Arial, Helvetica, sans-serif;
     background-color: #ddd;
     color: rgba(0, 0, 0, 1);
 }
@@ -17,6 +18,14 @@ div#interface{
 p {
     text-align: justify;
     text-indent: 50px;
+}
+a{
+    color: #606060;
+    text-decoration: none;
+}
+a:hover{
+    text-decoration: underline;
+    color: purple;
 }
 
 header#cabecalho img#icone{
@@ -115,7 +124,7 @@ nav#menu a:hover{
 
 section#corpo{
     display: block;
-    width: 520px;
+    width: 500px;
     float: left;
     border-right: 1px solid #606060;
     padding-right: 15px;
@@ -127,6 +136,29 @@ article#noticiaprincipal h2{
     padding: 5px 0px 5px 0px;
     margin: 10px 0px 10px 0px;
 }
+header#cabecalho-artigo h1{
+    font-family: 'FonteLogo',sans-serif;
+    font-size: 20pt;
+    color: #606060;
+    margin-bottom: 0px;
+    margin-top: 0px;
+
+}
+header#cabecalho-artigo h2{
+    font-size: 13pt;
+    color: #cecece;
+    background-color: #fff;
+    margin: 0px;
+}
+header#cabecalho-artigo h3{
+    font-size: 12px;
+    color: #000;
+}
+
+.direita{
+    text-align: right;
+}
+
 
 table#tabelaspec{
     border: 1px solid #606060;
@@ -163,11 +195,26 @@ table#tabelaspec caption span{
 }
 
 aside#lateral{
+    background-color: #ddd;
+    padding: 10px;
     display: block;
     width: 350px;
     float: right;
+    margin-top: 10px;
+    box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.507);
 }
-
+aside#lateral h1{
+    font-family: 'FonteLogo', sans-serif;
+    font-size: 20pt;
+    color: #606060;
+    margin-top: 0px;
+}
+aside#lateral h2{
+    background-color: #606060;
+    font-size: 13pt;
+    color: #fff;
+    padding: 5px;
+}
 footer#rodape{
     clear: both;
     border-top: 1px solid #606060;
